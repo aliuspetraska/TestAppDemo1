@@ -8,14 +8,17 @@
 
 import UIKit
 import CoreData
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        MSAppCenter.start("aba64060-0ed6-4249-a86e-96ae4469abc7", withServices:[ MSAnalytics.self, MSCrashes.self ])
+        
         // Override point for customization after application launch.
         return true
     }
@@ -88,6 +91,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
-
