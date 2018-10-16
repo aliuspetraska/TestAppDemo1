@@ -364,6 +364,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = W85F2WTQ6E;
 				INFOPLIST_FILE = TestAppDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +386,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = W85F2WTQ6E;
 				INFOPLIST_FILE = TestAppDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
